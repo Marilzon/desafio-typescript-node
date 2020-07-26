@@ -1,0 +1,11 @@
+@baseUrl = http://localhost:3333
+
+POST {{baseUrl}}/transactions
+Content-Type: application/json
+
+{
+  "title": "Pagamento",
+  "value": 1001,
+  "type": "outcome"
+}
+
